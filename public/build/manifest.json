@@ -1,0 +1,16 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-c3bceaf5.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/img/FondoMain.svg": {
+    "file": "assets/FondoMain-541aece9.svg",
+    "src": "resources/img/FondoMain.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-f2d0dca3.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
