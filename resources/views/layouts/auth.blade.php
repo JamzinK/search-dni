@@ -30,7 +30,7 @@
     @stack('styles')
 </head>
 
-<body class="from-teal-400 bg-gradient-to-r to-puerto-rico-500  dark:from-slate-900 dark:to-slate-950  z-0">
+<body class="from-orange-300 bg-gradient-to-r to-orange-200  dark:from-slate-900 dark:to-slate-950  z-0">
     <div class="bg-[url('../img/FondoMain.svg')]  z-10">
         <main>
             @yield('content')

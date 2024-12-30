@@ -17,31 +17,31 @@
                         <div>
                             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo</label>
                             <input type="email" name="email" id="email" value="{{ old('email') }}" autofocus autocomplete="username"
-                                class="@error('email') bg-red-50 text-red-900 focus:ring-red-600 focus:border-red-600 @enderror bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-400 dark:focus:border-teal-400 " placeholder="example@test.com" required="">
+                                class="@error('email') bg-red-50 text-red-900 focus:ring-red-600 focus:border-red-600 @enderror bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-400 dark:focus:border-blue-400 " placeholder="example@test.com" required="">
                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
                         </div>
                         <div>
                             <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contraseña</label>
-                            <input type="password" name="password" id="password" placeholder="••••••••" autocomplete="current-password" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-400 dark:focus:border-teal-400" required="">
+                            <input type="password" name="password" id="password" placeholder="••••••••" autocomplete="current-password" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-400 dark:focus:border-blue-400" required="">
                             <x-input-error :messages="$errors->get('password')" class="mt-2" />
                         </div>
                         <div class="flex items-center justify-between">
                             <div class="flex items-start">
                                 <div class="flex items-center h-5">
-                                    <input id="remember_me" name="remember" aria-describedby="remember_me" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-puerto-rico-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-puerto-rico-600 dark:ring-offset-gray-800">
+                                    <input id="remember_me" name="remember" aria-describedby="remember_me" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800">
                                 </div>
                                 <div class="ml-3 text-sm">
                                     <label for="remember_me" class="text-gray-500 dark:text-gray-300">Recuérdame</label>
                                 </div>
                             </div>
-                            <a href="#" class="text-sm font-medium text-puerto-rico-600 hover:underline dark:text-puerto-rico-500">Olvidaste tu contraseña?</a>
+                            <a href="#" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-700">Olvidaste tu contraseña?</a>
                         </div>
                         <button type="submit" onclick="cargarLogin(this)"
-                            class="w-full text-white bg-puerto-rico-600 hover:bg-puerto-rico-700 focus:ring-4 focus:outline-none focus:ring-puerto-rico-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-puerto-rico-600 dark:hover:bg-puerto-rico-700 dark:focus:ring-puerto-rico-800">
+                            class="w-full text-white bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:blue-800">
                             Iniciar Sesión
                         </button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                            ¿Aún no tienes una cuenta? <a href="#" class="font-medium text-puerto-rico-600 hover:underline dark:text-teal-400">Regístrate</a>
+                            ¿Aún no tienes una cuenta? <a href="#" class="font-medium text-blue-600 hover:underline dark:text-blue-700">Regístrate</a>
                         </p>
                     </form>
                 </div>

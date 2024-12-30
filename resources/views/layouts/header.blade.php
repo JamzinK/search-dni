@@ -2,12 +2,6 @@
     <nav class=" border-gray-200  lg:px-6 py-2.5 ">
         <div class="flex flex-wrap justify-between items-center">
             <div class="flex justify-start items-center">
-                <button aria-expanded="true" aria-controls="sidebar" class="p-2 mr-2 text-gray-100 rounded-lg cursor-pointer lg:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                    <svg class="w-[18px] h-[18px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-                    <span class="sr-only">Toggle sidebar</span>
-                </button>
                 <a href="{{ route('dashboard') }}" class="flex mr-4 sm:mr-1">
                     <img src="{{ asset('assets/img/logofinal.png') }}" class="mr-3 sm:mr-1 h-10 my-2" alt="Logo" />
                 </a>
@@ -17,12 +11,12 @@
                     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border  border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
-                                <a href="{{ route('dashboard') }}" class="{{ Route::is('dashboard') ? 'text-puerto-rico-200' : 'text-white' }} block py-2 px-3 hover:text-puerto-rico-200 text-white bg-blue-700 rounded md:bg-transparent  p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
+                                <a href="{{ route('dashboard') }}" class="{{ Route::is('dashboard') ? 'text-puerto-rico-200' : 'text-white' }} block py-2 px-3 hover:text-orange-300 text-white bg-blue-700 rounded md:bg-transparent  p-0 dark:text-white md:dark:text-blue-500" aria-current="page">
                                     Buscador
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ route('admin.index') }}" class="{{ Route::is('admin.index') ? 'text-puerto-rico-200' : 'text-white' }} block py-2 px-3 hover:text-puerto-rico-200 text-white rounded hover:bg-gray-100 hover:bg-transparent border-0  p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                <a href="{{ route('admin.index') }}" class="{{ Route::is('admin.index') ? 'text-puerto-rico-200' : 'text-white' }} block py-2 px-3 hover:text-orange-300 text-white rounded hover:bg-gray-100 hover:bg-transparent border-0  p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                     Administrador
                                 </a>
                             </li>

@@ -27,11 +27,11 @@
     @stack('styles')
 </head>
 
-<body class="bg-puerto-rico-50 dark:bg-slate-900">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 dark:from-blue-950 dark:to-puerto-rico-950 bg-gradient-to-r from-blue-900  to-puerto-rico-700">
+<body class="bg-gradient-to-br from-orange-100 to-orange-50 dark:from-blue-950 dark:to-teal-600 ">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 dark:from-blue-950 dark:to-teal-600 bg-gradient-to-r from-blue-900  to-teal-400 bg-transparent">
         @include('layouts.header')
     </div>
-    <div class="bg-puerto-rico-50 dark:bg-slate-900 py-4">
+    <div class="bg-gradient-to-tr from-orange-100 to-orange-50 dark:from-blue-950 dark:to-teal-600 py-4">
         <!-- Page Content -->
         <main>
             @yield('content')

@@ -9,7 +9,7 @@
     <section>
         <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-8 lg:px-6">
             <div class="max-w-screen-md mx-auto text-center mb-8 lg:mb-8">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Busqueda Personas</h2>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Búsqueda de Personas</h2>
                 <p class="mb-8 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Ingrese el DNI</p>
                 <form action="{{ route('personas.obtenerPersona') }}" id="formBusquedaPersonaId" method="post">
                     @csrf
@@ -23,9 +23,9 @@
                             </svg>
                         </div>
                         <input type="text" name="dni"
-                            class="block w-full p-4 pl-12 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-puerto-rico-500 focus:border-puerto-rico-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500"
+                            class="block w-full p-4 pl-12 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="Ingrese el DNI de 8 digitos">
-                        <button type="submit" id="btnBusquedaPersonaId" class="text-white absolute end-2.5 bottom-2.5 bg-puerto-rico-500 hover:bg-puerto-rico-800 focus:ring-4 focus:outline-none focus:ring-puerto-rico-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-puerto-rico-600 dark:hover:bg-puerto-rico-700 dark:focus:ring-puerto-rico-800">
+                        <button type="submit" id="btnBusquedaPersonaId" class="text-white absolute end-2.5 bottom-2.5 bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Buscar
                         </button>
                     </div>
@@ -36,7 +36,7 @@
                 <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-6">Resultados de búsqueda</h2>
                 <label for="name-person-id" class="block mb-2  font-medium text-gray-900 dark:text-white">Nombres</label>
                 <div class="relative mb-4">
-                    <input id="name-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-puerto-rico-500 focus:border-puerto-rico-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500" placeholder="Nombres" value="" readonly>
+                    <input id="name-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Nombres" value="" readonly>
                     <button data-copy-to-clipboard-target="name-person-id" data-tooltip-target="tooltip-name-person-id" class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                         <span id="default-icon-name-person-id">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
@@ -44,7 +44,7 @@
                             </svg>
                         </span>
                         <span id="success-icon-name-person-id" class="hidden inline-flex items-center">
-                            <svg class="w-4 h-4 text-puerto-rico-500 dark:text-puerto-rico-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <svg class="w-4 h-4 text-blue-500 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
                         </span>
@@ -57,7 +57,7 @@
                 </div>
                 <label for="ap-person-id" class="block mb-2  font-medium text-gray-900 dark:text-white">Apellido Paterno</label>
                 <div class="relative mb-4">
-                    <input id="ap-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-puerto-rico-500 focus:border-puerto-rico-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500" placeholder="Apellido paterno" value="" readonly>
+                    <input id="ap-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Apellido paterno" value="" readonly>
                     <button data-copy-to-clipboard-target="ap-person-id" data-tooltip-target="tooltip-ap-person-id" class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                         <span id="default-icon-ap-person-id">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
@@ -65,7 +65,7 @@
                             </svg>
                         </span>
                         <span id="success-icon-ap-person-id" class="hidden inline-flex items-center">
-                            <svg class="w-4 h-4 text-puerto-rico-500 dark:text-puerto-rico-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <svg class="w-4 h-4 text-blue-500 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
                         </span>
@@ -78,7 +78,7 @@
                 </div>
                 <label for="am-person-id" class="block mb-2  font-medium text-gray-900 dark:text-white">Apellido Materno</label>
                 <div class="relative mb-6">
-                    <input id="am-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-puerto-rico-500 focus:border-puerto-rico-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500" placeholder="Apellido materno" value="" readonly>
+                    <input id="am-person-id" type="text" class="col-span-6 bg-gray-50 border border-gray-300 text-gray-800 font-semibold text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Apellido materno" value="" readonly>
                     <button data-copy-to-clipboard-target="am-person-id" data-tooltip-target="tooltip-am-person-id" class="absolute end-2 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg p-2 inline-flex items-center justify-center">
                         <span id="default-icon-am-person-id">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 20">
@@ -86,7 +86,7 @@
                             </svg>
                         </span>
                         <span id="success-icon-am-person-id" class="hidden inline-flex items-center">
-                            <svg class="w-4 h-4 text-puerto-rico-500 dark:text-puerto-rico-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <svg class="w-4 h-4 text-blue-500 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5" />
                             </svg>
                         </span>

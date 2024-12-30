@@ -29,7 +29,7 @@
                         </span>
                     </div>
                     <div class="justify-self-center md:justify-self-end">
-                        <button data-modal-target="modalAgregarUserId" data-modal-toggle="modalAgregarUserId" type="button" class="px-5 py-2.5 text-sm font-medium text-white inline-flex items-center bg-puerto-rico-600 hover:bg-puerto-rico-800 focus:ring-4 focus:outline-none focus:ring-puerto-rico-300 rounded-lg text-center dark:bg-puerto-rico-600 dark:hover:bg-puerto-rico-700 dark:focus:ring-puerto-rico-800">
+                        <button data-modal-target="modalAgregarUserId" data-modal-toggle="modalAgregarUserId" type="button" class="px-5 py-2.5 text-sm font-medium text-white inline-flex items-center bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             <svg class="w-5 h-5 text-white me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
                                 <g fill="currentColor">
                                     <path d="M168 100a60 60 0 1 1-60-60a60 60 0 0 1 60 60" opacity="0.2" />
@@ -146,7 +146,7 @@
         </div>
     </div>
 
-    <button id="btnEditarUserId" data-modal-target="modalEditarUserId" data-modal-toggle="modalEditarUserId" type="button" class="hidden px-5 py-2.5 text-sm font-medium text-white  items-center bg-puerto-rico-600 hover:bg-puerto-rico-800 focus:ring-4 focus:outline-none focus:ring-puerto-rico-300 rounded-lg text-center dark:bg-puerto-rico-600 dark:hover:bg-puerto-rico-700 dark:focus:ring-puerto-rico-800">
+    <button id="btnEditarUserId" data-modal-target="modalEditarUserId" data-modal-toggle="modalEditarUserId" type="button" class="hidden px-5 py-2.5 text-sm font-medium text-white  items-center bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Editar Usuario
     </button>
 
