@@ -5,26 +5,24 @@
     <section class="">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 ">
             <a href="#" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-                <img class="w-56  mr-2" src="{{ asset('assets/img/logolight.png') }}" alt="logo">
-                {{-- <img class="w-56  mr-2" src="{{ asset('assets/img/logo2.png') }}" alt="logo"> --}}
-
+                <img class="w-56  mr-2" src="{{ asset('assets/img/logofinal.png') }}" alt="logo">
             </a>
             <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700 ">
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                     <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-                        Ingresa
+                        Ingresa tus datos
                     </h1>
                     <form class="space-y-4 md:space-y-6" method="POST" action="{{ route('login') }}">
                         @csrf
                         <div>
                             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo</label>
                             <input type="email" name="email" id="email" value="{{ old('email') }}" autofocus autocomplete="username"
-                                class="@error('email') bg-red-50 text-red-900 focus:ring-red-600 focus:border-red-600 @enderror bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500 " placeholder="name@aula20.edu.pe" required="">
+                                class="@error('email') bg-red-50 text-red-900 focus:ring-red-600 focus:border-red-600 @enderror bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-400 dark:focus:border-teal-400 " placeholder="example@test.com" required="">
                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
                         </div>
                         <div>
                             <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contraseña</label>
-                            <input type="password" name="password" id="password" placeholder="••••••••" autocomplete="current-password" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-puerto-rico-500 dark:focus:border-puerto-rico-500" required="">
+                            <input type="password" name="password" id="password" placeholder="••••••••" autocomplete="current-password" class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-puerto-rico-600 focus:border-puerto-rico-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-400 dark:focus:border-teal-400" required="">
                             <x-input-error :messages="$errors->get('password')" class="mt-2" />
                         </div>
                         <div class="flex items-center justify-between">
@@ -43,7 +41,7 @@
                             Iniciar Sesión
                         </button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                            Aún no tienes una cuenta? <a href="#" class="font-medium text-puerto-rico-600 hover:underline dark:text-puerto-rico-500">Regístrate</a>
+                            ¿Aún no tienes una cuenta? <a href="#" class="font-medium text-puerto-rico-600 hover:underline dark:text-teal-400">Regístrate</a>
                         </p>
                     </form>
                 </div>

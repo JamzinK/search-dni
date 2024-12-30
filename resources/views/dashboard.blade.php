@@ -51,7 +51,7 @@
                     </button>
                     <div id="tooltip-name-person-id" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         <span id="default-tooltip-message-name-person-id">Copiar</span>
-                        <span id="success-tooltip-message-name-person-id" class="hidden">Copiado!</span>
+                        <span id="success-tooltip-message-name-person-id" class="hidden">¡Copiado!</span>
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                     </button>
                     <div id="tooltip-ap-person-id" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         <span id="default-tooltip-message-ap-person-id">Copiar</span>
-                        <span id="success-tooltip-message-ap-person-id" class="hidden">Copiado!</span>
+                        <span id="success-tooltip-message-ap-person-id" class="hidden">¡Copiado!</span>
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     </button>
                     <div id="tooltip-am-person-id" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         <span id="default-tooltip-message-am-person-id">Copiar</span>
-                        <span id="success-tooltip-message-am-person-id" class="hidden">Copiado!</span>
+                        <span id="success-tooltip-message-am-person-id" class="hidden">¡Copiado!</span>
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
                 </div>

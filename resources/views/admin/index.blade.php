@@ -17,15 +17,14 @@
         <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-8 lg:px-6">
             <div class="max-w-screen-md mx-auto text-center mb-8 lg:mb-8">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Administrador</h2>
-                <p class="mb-8 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Creacion de usuarios</p>
+                <p class="mb-8 font-light text-gray-500 dark:text-gray-400 sm:text-xl">Creación de usuarios</p>
 
             </div>
             <div class="w-full max-w-7xl mx-auto bg-white dark:bg-gray-800 border-gray-200 border dark:border-gray-700 shadow rounded-lg p-5">
-                {{-- <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-6">Usuarios</h2> --}}
                 <div class="grid grid-cols-1 md:grid-cols-2 mb-4 gap-4">
                     <div class="justify-self-center md:justify-self-start">
 
-                        <span class="align-middle text-lg font-semibold">
+                        <span class="align-middle text-lg font-semibold dark:text-white">
                             Tabla de Usuarios
                         </span>
                     </div>
@@ -41,18 +40,18 @@
                         </button>
                     </div>
                 </div>
-                <table id="tableUsersId" class="table-borderless" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+                <table id="tableUsersId" class="table-borderless dark:text-white" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Correo</th>
-                            <th scope="col">Nombres</th>
-                            <th scope="col">Apellido Paterno</th>
-                            <th scope="col">Apellido Materno</th>
-                            <th scope="col">Rol</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Fec.Crea</th>
-                            <th scope="col">Accion</th>
+                            <th scope="col" class="dark:text-white">#</th>
+                            <th scope="col" class="dark:text-white">Correo</th>
+                            <th scope="col" class="dark:text-white">Nombres</th>
+                            <th scope="col" class="dark:text-white">Apellido Paterno</th>
+                            <th scope="col" class="dark:text-white">Apellido Materno</th>
+                            <th scope="col" class="dark:text-white">Rol</th>
+                            <th scope="col" class="dark:text-white">Status</th>
+                            <th scope="col" class="dark:text-white">Fec. Creación</th>
+                            <th scope="col" class="dark:text-white">Acción</th>
                         </tr>
                     </thead>
                 </table>
@@ -112,7 +111,7 @@
                                     <div
                                         class="relative mt-2 w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-600">
                                     </div>
-                                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+                                    <span class="ms-3 mt-2 text-sm font-medium text-gray-900 dark:text-white">Activo</span>
                                 </label>
                             </div>
                             <div>
@@ -204,7 +203,7 @@
                                     <div
                                         class="relative mt-2 w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-600">
                                     </div>
-                                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+                                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-white">Activo</span>
                                 </label>
                             </div>
                             <div class="col-span-2">

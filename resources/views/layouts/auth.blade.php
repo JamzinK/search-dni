@@ -11,7 +11,7 @@
     <link rel="manifest" href="{{ asset('assets/favicon/site.webmanifest') }}">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#16b6a2">
-    <title>@yield('title') | Aula20</title>
+    <title>@yield('title') | RR.HH.</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -30,7 +30,7 @@
     @stack('styles')
 </head>
 
-<body class="from-blue-900 bg-gradient-to-r to-puerto-rico-700  dark:from-slate-900 dark:to-slate-950  z-0">
+<body class="from-teal-400 bg-gradient-to-r to-puerto-rico-500  dark:from-slate-900 dark:to-slate-950  z-0">
     <div class="bg-[url('../img/FondoMain.svg')]  z-10">
         <main>
             @yield('content')
